@@ -57,7 +57,7 @@ public class LoginTest extends RunBase{
 	}
 	
 	@Test
-	@Tag("normal")
+	@Tag("critical")
 	@Story("CT002 - Empty email")
     @Description("Try to login by entering the password and leaving the user field empty")
 	public void testEmptyEmail() {
