@@ -29,7 +29,7 @@ public class LoginTest extends RunBase{
 	
 	@BeforeEach
 	public void setUp() {
-		getDriver("chrome");
+		getDriver("chrome-ci");
 		loginPage 	= new LoginPage();
 		initialPage = new InitialPage();
 	}
