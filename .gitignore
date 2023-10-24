@@ -1,0 +1,20 @@
+.allure
+
+allure-report
+allure-results
+
+#IDEA Files
+.idea
+target
+*.iml
+*.ipr
+*.txt
+
+#Eclipse files
+*.settings
+*.classpath
+*.project
+*.pydevproject
+/.apt_generated/
+/.apt_generated_tests/
+/bin/
