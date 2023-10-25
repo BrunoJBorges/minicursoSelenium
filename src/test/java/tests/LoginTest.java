@@ -29,7 +29,7 @@ public class LoginTest extends RunBase{
 	
 	@BeforeEach
 	public void setUp() {
-		getDriver("chrome-ci");
+		getDriver("chrome");
 		loginPage 	= new LoginPage();
 		initialPage = new InitialPage();
 	}
@@ -53,7 +53,7 @@ public class LoginTest extends RunBase{
 	    //Validates if you logged in the municipality correctly
 		s_textProduct = initialPage.getTextProduct();
 	    
-	    checkValue("Não está logando corretamento no sistema", "Products", s_textProduct);  
+	    checkValue("Não está logando corretamento no sistema", "Product", s_textProduct);  
 	}
 	
 	@Test
