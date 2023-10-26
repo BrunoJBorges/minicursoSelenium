@@ -73,4 +73,4 @@ Se você encontrar problemas ou tiver sugestões para melhorar este minicurso, s
 
 Esperamos que você aproveite o minicurso de Selenium e que ele seja útil para aprimorar suas habilidades em testes automatizados!
 
-**Equipe do Minicurso de Selenium**
+**Bruno José Borges**
