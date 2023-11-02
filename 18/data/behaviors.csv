@@ -1,0 +1,4 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"Validation of login screen functionalities","Functionality - Login","CT003 - Empty password","0","0","1","0","0"
+"Validation of login screen functionalities","Functionality - Login","CT002 - Empty email","0","0","1","0","0"
+"Validation of login screen functionalities","Functionality - Login","CT001 - Correct login","1","0","0","0","0"
