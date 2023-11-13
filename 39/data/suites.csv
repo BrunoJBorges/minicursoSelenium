@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Nov 13 10:19:46 GMT 2023","Mon Nov 13 10:19:47 GMT 2023","850","","tests.LoginTest","","tests.LoginTest","testEmptyPassword","testEmptyPassword()","Try to login by entering the email and leaving the password field empty"
+"passed","Mon Nov 13 10:19:28 GMT 2023","Mon Nov 13 10:19:45 GMT 2023","17066","","tests.LoginTest","","tests.LoginTest","testEmptyEmail","testEmptyEmail()","Try to login by entering the password and leaving the user field empty"
+"failed","Mon Nov 13 10:19:45 GMT 2023","Mon Nov 13 10:19:46 GMT 2023","1163","","tests.LoginTest","","tests.LoginTest","testCorrectLogin","testCorrectLogin()","Log in with a user registered in the system, informing your correct password"
