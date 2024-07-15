@@ -19,7 +19,6 @@ import pages.InitialPage;
 import pages.LoginPage;
 import runner.RunBase;
 
-
 @Epic("Validation of login screen functionalities")
 @Feature("Functionality - Login")
 public class LoginTest extends RunBase{
@@ -53,8 +52,7 @@ public class LoginTest extends RunBase{
 	    //Validates if you logged in the municipality correctly
 		s_textProduct = initialPage.getTextProduct();
 	    
-		//This test is intentionally failing so that it can be seen in the report. 
-	    checkValue("Não está logando corretamento no sistema", "Product", s_textProduct);  
+	    checkValue("Não está logando corretamento no sistema", "Products", s_textProduct);  
 	}
 	
 	@Test
